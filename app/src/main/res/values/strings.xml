@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Registration IOS</string>
     <string name="terms_and_conditions"><u>Terms and Conditions</u>.</string>
+    <string name="forgot_your_password"><u>Forgot your password?</u></string>
 </resources>

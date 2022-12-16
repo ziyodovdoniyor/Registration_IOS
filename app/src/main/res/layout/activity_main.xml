@@ -9,50 +9,80 @@
 
     <LinearLayout
         android:layout_width="350dp"
-        android:layout_height="400dp"
+        android:layout_height="500dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.562">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/bird"/>
+            android:src="@drawable/bird" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
             android:text="Gaming"
             android:textColor="@color/white"
             android:textSize="45dp"
-            android:textStyle="bold"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="15dp"
-            />
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:text="By creating an account or signing you agree to our"
-            android:textColor="@color/white"
-            android:layout_gravity="center_horizontal"
-            />
+            android:textColor="@color/white" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:text="@string/terms_and_conditions"
             android:textColor="@color/white"
-            android:layout_gravity="center_horizontal"
-            android:textStyle="bold"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/button"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="SIGN IN WITH APPLE"
+            app:icon="@drawable/apple_logo"
+            android:textAlignment="center"
             />
 
         <com.google.android.material.button.MaterialButton
+            style="@style/button"
             android:layout_width="300dp"
             android:layout_height="50dp"
-            style="@style/button"
+            android:text="SIGN IN WITH FACEBOOK"
+            app:icon="@drawable/facebook"
+            android:textAlignment="center"
             />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/button"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="SIGN IN WITH PHONE"
+            app:icon="@drawable/phone"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/forgot_your_password"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
